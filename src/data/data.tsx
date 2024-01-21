@@ -12,6 +12,8 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -186,6 +188,18 @@ export const portfolioItems: PortfolioItem[] = [
       'Demonstrates how to use logistic regression to predict the probability of a binary event, such as passing or failing an exam.',
     url: 'https://github.com/Lalo0502/Logistic-Regression',
     image: porfolioImage2,
+  },
+  {
+    title: 'Ghost System Inc Blog',
+    description: 'Wrote about coming cybersecurity trends in 2024',
+    url: 'https://www.ghost-sys.com/post/anticipating-the-future-key-cybersecurity-trends-shaping-2024-and-beyond',
+    image: porfolioImage3,
+  },
+  {
+    title: 'Personal Blog',
+    description: 'I write about my personal life and experiences, hosted on AWS S3 Bucket and Route 53',
+    url: 'http://eh-blog.click/page.html',
+    image: porfolioImage4,
   },
 ];
 
